@@ -1,23 +1,23 @@
 [package]
-name = "libsodium-ffi"
-version = "0.2.2"
-authors = ["Y. T. Chung <zonyitoo@gmail.com>"]
+name = "libsodium-ffivj"
+version = "0.2.3"
+authors = ["Vivek Jain <vivekjain007@outlook.com>"]
 links = "sodium"
 build = "build.rs"
 license = "MIT/ISC"
-repository = "https://github.com/zonyitoo/libsodium-ffi"
+repository = "https://github.com/vivekjain007/libsodium-ffivj"
 description = "Native bindings (FFI) to the libsodium library"
-edition = "2018"
+edition = "2021"
 
 [lib]
-name = "libsodium_ffi"
+name = "libsodium_ffivj"
 
 [build-dependencies]
 vcpkg = "0.2"
 pkg-config = "0.3"
 flate2 = "1.0"
 tar = "0.4"
-zip = "0.5"
+zip = "0.6"
 unwrap = "1.2"
-bindgen = "0.52"
+bindgen = "0.68"
 curl = "0.4"
