@@ -1,14 +1,13 @@
-## libsodium-ffi
+## libsodium-ffivj
 
-[![Build Status](https://travis-ci.org/zonyitoo/libsodium-ffi.svg?branch=master)](https://travis-ci.org/zonyitoo/libsodium-ffi)
-[![Build status](https://ci.appveyor.com/api/projects/status/em09bc2uktyvnf3h?svg=true)](https://ci.appveyor.com/project/zonyitoo/libsodium-ffi)
+This crate is based on libsodium-ffi crate sources. This crate only upgrades the rust edition to 2021 & zip and bindgen dependencies.  
 
 Rust native binding to [libsodium](https://github.com/jedisct1/libsodium)
 
 ```toml
 # Cargo.toml
 [dependencies]
-libsodium-ffi = "0.2"
+libsodium-ffivj = "0.2"
 ```
 
 ## Usage
@@ -42,4 +41,4 @@ export SODIUM_BUILD_STATIC=yes
 
 ## Thanks
 
-- `build.rs` is partially borrowed from [rust_sodium](https://github.com/maidsafe/rust_sodium/tree/master/rust_sodium-sys) project.
+- This is borrowed from [libsodium-ffi](https://github.com/zonyitoo/libsodium-ffi.git) project.

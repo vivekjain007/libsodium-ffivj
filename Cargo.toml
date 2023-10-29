@@ -6,7 +6,7 @@ links = "sodium"
 build = "build.rs"
 license = "MIT/ISC"
 repository = "https://github.com/vivekjain007/libsodium-ffivj"
-description = "Native bindings (FFI) to the libsodium library"
+description = "Native bindings (FFI) to the libsodium library based on libsodium-ffi and upgrades rust editioon to 2021 and dependencies"
 edition = "2021"
 
 [lib]
